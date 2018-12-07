@@ -47,7 +47,7 @@
     "lodash.defaultsdeep": "4.6.0",
     "mkdirp": "^0.5.1",
     "rimraf": "^2.6.2",
-    "webpack": "^4.6.0",
-    "webpack-cli": "^2.0.15"
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1"
   }
 }
