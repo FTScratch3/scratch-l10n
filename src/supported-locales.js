@@ -5,6 +5,8 @@
 
 const locales = {
     'ab': {name: 'Аҧсшәа'},
+    'ar': {name: 'العربية'},
+    'am': {name: 'አማርኛ'},
     'az': {name: 'Azeri'},
     'id': {name: 'Bahasa Indonesia'},
     'ca': {name: 'Català'},
@@ -17,30 +19,34 @@ const locales = {
     'en': {name: 'English'},
     'es': {name: 'Español'},
     'es-419': {name: 'Español Latinoamericano'},
+    'eu': {name: 'Euskara'},
     'fr': {name: 'Français'},
     'ga': {name: 'Gaeilge'},
     'gd': {name: 'Gàidhlig'},
     'gl': {name: 'Galego'},
     'ko': {name: '한국어'},
     'he': {name: 'עִבְרִית'},
+    'hr': {name: 'Hrvatski'},
+    'zu': {name: 'isiZulu'},
     'is': {name: 'Íslenska'},
     'it': {name: 'Italiano'},
-    'lv': {name: 'Latviešu'},
+    // 'lv': {name: 'Latviešu'}, // restore when reviewed
     'lt': {name: 'Lietuvių'},
-    'mi': {name: 'Maori'},
+    'hu': {name: 'Magyar'},
+    'mi': {name: 'Māori'},
     'nl': {name: 'Nederlands'},
     'ja': {name: '日本語'},
     'ja-Hira': {name: 'にほんご'},
-    'hu': {name: 'Magyar'},
     'nb': {name: 'Norsk Bokmål'},
-    'nn': {name: 'Norsk Nynorsk'},
+    // 'nn': {name: 'Norsk Nynorsk'}, // restore when reviewed
     'th': {name: 'ไทย'},
     'pl': {name: 'Polski'},
     'pt': {name: 'Português'},
     'pt-br': {name: 'Português Brasileiro'},
+    'ro': {name: 'Română'},
     'ru': {name: 'Русский'},
     'sr': {name: 'Српски'},
-    'sk': {name: 'Slovenčina'},
+    // 'sk': {name: 'Slovenčina'}, // restore when reviewed
     'sl': {name: 'Slovenščina'},
     'fi': {name: 'Suomi'},
     'sv': {name: 'Svenska'},
@@ -74,8 +80,18 @@ const customLocales = {
     }
 };
 
+const localeMap = {
+    'aa-dj': 'aa_DJ',
+    'es-419': 'es_419',
+    // ja-Hira: no map - it's 'ja-Hira' on transifex
+    'pt-br': 'pt_BR',
+    'zh-cn': 'zh_CN',
+    'zh-tw': 'zh_TW'
+};
+
 // list of RTL locales supported, and a function to check whether a locale is RTL
 const rtlLocales = [
+    'ar',
     'he'
 ];
 
@@ -83,75 +99,56 @@ const isRtl = locale => {
     return rtlLocales.indexOf(locale) !== -1;
 };
 
+
+// wwwLocales is deprecated. Remove it once we know it's no longer used.
+// For now it's just identical.
 const wwwLocales = {
     'ab': {name: 'Аҧсшәа'},
     'ar': {name: 'العربية'},
-    'an': {name: 'Aragonés'},
-    'ast': {name: 'Asturianu'},
+    'am': {name: 'አማርኛ'},
+    'az': {name: 'Azeri'},
     'id': {name: 'Bahasa Indonesia'},
-    'ms': {name: 'Bahasa Melayu'},
-    'be': {name: 'Беларуская'},
-    'bg': {name: 'Български'},
     'ca': {name: 'Català'},
     'cs': {name: 'Česky'},
     'cy': {name: 'Cymraeg'},
     'da': {name: 'Dansk'},
     'de': {name: 'Deutsch'},
-    'yum': {name: 'Edible Scratch'},
     'et': {name: 'Eesti'},
     'el': {name: 'Ελληνικά'},
     'en': {name: 'English'},
-    'eo': {name: 'Esperanto'},
     'es': {name: 'Español'},
+    'es-419': {name: 'Español Latinoamericano'},
     'eu': {name: 'Euskara'},
-    'fa': {name: 'فارسی'},
     'fr': {name: 'Français'},
-    'fur': {name: 'Furlan'},
     'ga': {name: 'Gaeilge'},
     'gd': {name: 'Gàidhlig'},
     'gl': {name: 'Galego'},
     'ko': {name: '한국어'},
-    'hy': {name: 'Հայերեն'},
     'he': {name: 'עִבְרִית'},
-    'hi': {name: 'हिन्दी'},
     'hr': {name: 'Hrvatski'},
     'zu': {name: 'isiZulu'},
     'is': {name: 'Íslenska'},
     'it': {name: 'Italiano'},
-    'kn': {name: 'ಭಾಷೆ-ಹೆಸರು'},
-    'rw': {name: 'Kinyarwanda'},
-    'ht': {name: 'Kreyòl'},
-    'ku': {name: 'Kurdî'},
-    'la': {name: 'Latina'},
-    'lv': {name: 'Latviešu'},
+    // 'lv': {name: 'Latviešu'}, // uncomment when reviewed
     'lt': {name: 'Lietuvių'},
-    'mk': {name: 'Македонски'},
     'hu': {name: 'Magyar'},
-    'ml': {name: 'മലയാളം'},
-    'mt': {name: 'Malti'},
-    'cat': {name: 'Meow'},
-    'mr': {name: 'मराठी'},
-    'mn': {name: 'Монгол хэл'},
-    'my': {name: 'မြန်မာဘာသာ'},
+    'mi': {name: 'Māori'},
     'nl': {name: 'Nederlands'},
     'ja': {name: '日本語'},
+    'ja-Hira': {name: 'にほんご'},
     'nb': {name: 'Norsk Bokmål'},
-    'nn': {name: 'Norsk Nynorsk'},
-    'uz': {name: 'Oʻzbekcha'},
+    // 'nn': {name: 'Norsk Nynorsk'}, // uncomment when reviewed
     'th': {name: 'ไทย'},
     'pl': {name: 'Polski'},
     'pt': {name: 'Português'},
     'pt-br': {name: 'Português Brasileiro'},
     'ro': {name: 'Română'},
     'ru': {name: 'Русский'},
-    'sc': {name: 'Sardu'},
-    'sq': {name: 'Shqip'},
-    'sk': {name: 'Slovenčina'},
-    'sl': {name: 'Slovenščina'},
     'sr': {name: 'Српски'},
+    // 'sk': {name: 'Slovenčina'}, // uncomment when reviewed
+    'sl': {name: 'Slovenščina'},
     'fi': {name: 'Suomi'},
     'sv': {name: 'Svenska'},
-    'te': {name: 'తెలుగు'},
     'vi': {name: 'Tiếng Việt'},
     'tr': {name: 'Türkçe'},
     'uk': {name: 'Українська'},
@@ -159,4 +156,4 @@ const wwwLocales = {
     'zh-tw': {name: '繁體中文'}
 };
 
-export {locales as default, customLocales, rtlLocales, isRtl, wwwLocales};
+export {locales as default, customLocales, localeMap, rtlLocales, isRtl, wwwLocales};
