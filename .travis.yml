@@ -5,6 +5,8 @@ node_js:
 cache:
   directories:
   - node_modules
+notifications:
+  slack: $SLACK_NOTIFICATION_TOKEN
 jobs:
   include:
     - stage: update translations

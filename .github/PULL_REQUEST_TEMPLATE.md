@@ -15,7 +15,8 @@ There are two situations in which we create manual PRs to update translations:
 
 ### 1. Updating translations manually
 
-* [ ] Pull translations from Transifex with `> npm run pull:editor`
+* [ ] Pull editor translations from Transifex with `> npm run pull:editor`
+* [ ] Pull www translations from Transifex with `> npm run pull:www`
 * [ ] Test the result with `> npm run test`
 * [ ] Confirm that you see changes to files like `editor/<resource>/<lang code>.json`
 
@@ -54,3 +55,12 @@ There are two situations in which we create manual PRs to update translations:
     * [ ] Multiple files like `editor/<resource>/<lang code>.json`
 
 * [ ] Bump minor version number in `package.json`
+
+* [ ] **Update scratch-blocks dependency**
+    * scratch-blocks has its own translations. It will not pick up the new language unless the scratch-l10n dependency in `package.json` is updated to the new minor version.
+
+* [ ] **Add language po files to scratchr2_translations**
+    * manually update `scratchr2_translations/legacy` with `tx pull -l <locale>` and check in changes
+
+* [ ] **Add language to scratchr2 settings**
+    * manually update `settings/base.py` with the new language
