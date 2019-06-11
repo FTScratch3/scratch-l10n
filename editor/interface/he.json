@@ -409,13 +409,12 @@
     "gui.sharedMessages.pop": "פופ",
     "gui.sharedMessages.replaceProjectWarning": "Replace contents of the current project?",
     "gui.sharedMessages.loadFromComputerTitle": "Load from your computer",
-    "gui.extension.txt.connectingMessage": "Connecting. Make sure the FTScratchTXT.exe is running.",
-    "gui.extension.ftxt.description": "Control your Robotics TXT Controller",
-    "gui.extension.ftxt.help0": "Make sure that FTScratchTXT.exe is running.",
-    "gui.extension.ftxt.help1": "Make sure that your controller is connected to the FTScratchTXT.exe.",
-    "gui.extension.ftbtsmart.connectingMessage": "Connecting. Make sure the FTScratchBTSmart.exe is running.",
-    "gui.extension.ftbtsmart.description": "Control your Robotics BTSmart Controller",
-    "gui.extension.ftbtsmart.help0": "Make sure that FTScratchBTSmart.exe is running.",
-    "gui.extension.ftbtsmart.help1": "Make sure that your controller is connected to the FTScratchBTSmart.exe."
-
+    "gui.extension.txt.connectingMessage": "מתחבר. אנא ודא שתוכנת הקישור FTScratchTXT.exe רצה ברקע",
+    "gui.extension.ftxt.description": "תכנת את בקר ה-TXT ברובוט של פישרטקניק",
+    "gui.extension.ftxt.help0": " אנא ודא שתוכנת הקישור FTScratchTXT.exe רצה ברקע",
+    "gui.extension.ftxt.help1": " אנא ודא שהרובוט מחובר אל תוכנת הקישור FTScratchTXT.exe",
+    "gui.extension.ftbtsmart.connectingMessage": "מתחבר. אנא ודא שתוכנת הקישור FTScratchBTSmart.exe רצה ברקע",
+    "gui.extension.ftbtsmart.description": "תכנת את בקר ה-BTSmart ברובוט של פישרטקניק",
+    "gui.extension.ftbtsmart.help0": " אנא ודא שתוכנת הקישור FTScratchBTSmart.exe רצה ברקע",
+    "gui.extension.ftbtsmart.help1": " אנא ודא שהרובוט מחובר אל תוכנת הקישור FTScratchBTSmart.exe"
 }

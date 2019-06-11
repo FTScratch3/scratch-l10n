@@ -408,5 +408,13 @@
     "gui.sharedMessages.sprite": "الكائن {index}",
     "gui.sharedMessages.pop": "بُب",
     "gui.sharedMessages.replaceProjectWarning": "هل تريد الاستغناء عن محتويات المشروع الحالي؟",
-    "gui.sharedMessages.loadFromComputerTitle": "Load from your computer"
+    "gui.sharedMessages.loadFromComputerTitle": "Load from your computer",
+    "gui.extension.txt.connectingMessage": "جاري الاتصال. من فضلك تأكد بأن برنامج الارتباط  FTScratchTXT.exe يعمل في الخلفية.",
+    "gui.extension.ftxt.description": "برمج المتحكم TXT في روبوت فيشرتكنيك.",
+    "gui.extension.ftxt.help0": "من فضلك تأكد بأن برنامج الارتباط  FTScratchTXT.exe يعمل في الخلفية.",
+    "gui.extension.ftxt.help1": "من فضلك تأكد بأن الروبوت متصل ببرنامج الارتباط  FTScratchTXT.exe ",
+    "gui.extension.ftbtsmart.connectingMessage": "جاري الاتصال. من فضلك تأكد بأن برنامج الارتباط  FTScratchBTSmart.exe  يعمل في الخلفية.",
+    "gui.extension.ftbtsmart.description": "برمج المتحكم BTSmart في روبوت فيشرتكنيك.",
+    "gui.extension.ftbtsmart.help0": "من فضلك تأكد بأن برنامج الارتباط  FTScratchBTSmart.exe يعمل في الخلفية.",
+    "gui.extension.ftbtsmart.help1": "من فضلك تأكد بأن الروبوت متصل ببرنامج الارتباط  FTScratchBTSmart.exe "
 }
