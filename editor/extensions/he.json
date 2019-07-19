@@ -224,7 +224,7 @@
     "ftxt.sensor_digital_button": "מתג",
     "ftxt.sensor_digital_light_barrier": "מחסום אור",
     "ftxt.sensor_digital_reed": "חיישן מגנטיות",
-    "ftxt.sensor_digital_trail": "Trail Sensor",
+    "ftxt.sensor_digital_trail": "חיישן מרחק",
     "ftxt.input_digital_closes": "נסגר",
     "ftxt.input_digital_opens": "נפתח",
     "ftxt.motor_forward": "קדימה",
