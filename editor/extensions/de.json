@@ -245,6 +245,7 @@
     "ftxt.doSetMotorDir": "Setze Motor [MOTOR_ID] auf [DIRECTION]",
     "ftxt.doSetMotorSpeedDir": "Setze Motor [MOTOR_ID] auf [SPEED] [DIRECTION]",
     "ftxt.doStopMotor": "Stoppe Motor [MOTOR_ID]",
+    "ftxt.doStopAllMotor": "Stoppe alle Motoren",
     "ftxt.doSetMotorSpeedDirDist": "Verfahre Motor [MOTOR_ID] für [STEPS] Schritte mit [SPEED] [DIRECTION]",
     "ftxt.doSetMotorSpeedDirSync": "Verfahre Motoren [MOTOR_ID] [DIRECTION] und [MOTOR_ID2] [DIRECTION2] mit [SPEED]",
     "ftxt.doSetMotorSpeedDirDistSync": "Verfahre Motoren [MOTOR_ID] [DIRECTION] und [MOTOR_ID2] [DIRECTION2] mit [SPEED] für [STEPS] Schritte",
