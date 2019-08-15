@@ -246,9 +246,9 @@
     "ftxt.doSetMotorSpeedDir": "Setze Motor [MOTOR_ID] auf [SPEED] [DIRECTION]",
     "ftxt.doStopMotor": "Stoppe Motor [MOTOR_ID]",
     "ftxt.doStopAllMotor": "Stoppe alle Motoren",
-    "ftxt.doSetMotorSpeedDirDist": "Verfahre Motor [MOTOR_ID] für [STEPS] Schritte mit [SPEED] [DIRECTION]",
+    "ftxt.doSetMotorSpeedDirDist": "Verfahre Motor [MOTOR_ID] [DIRECTION] mit [SPEED] für [STEPS] Schritte",
     "ftxt.doSetMotorSpeedDirSync": "Verfahre Motoren [MOTOR_ID] [DIRECTION] und [MOTOR_ID2] [DIRECTION2] mit [SPEED]",
     "ftxt.doSetMotorSpeedDirDistSync": "Verfahre Motoren [MOTOR_ID] [DIRECTION] und [MOTOR_ID2] [DIRECTION2] mit [SPEED] für [STEPS] Schritte",
     "ftxt.doStopMotorAndReset": "Stoppe Verfahren [MOTOR_ID]",
-    "ftxt.reset": "zurücksetzen"
+    "ftxt.reset": "Zurücksetzen"
 }
