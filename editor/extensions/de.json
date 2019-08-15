@@ -236,7 +236,7 @@
     "ftxt.getSensor": "Lese Wert von [SENSOR] [INPUT]",
     "ftxt.isClosed": "Ist [SENSOR] [INPUT] geschlossen?",
     "ftxt.doPlaySound": "Spiele Sound [NUM]",
-    "ftxt.doPlaySoundWait": "Spiele Sound [NUM] und warten",
+    "ftxt.doPlaySoundWait": "Spiele Sound [NUM] und warte",
     "ftxt.doSetLamp": "Setze Lampe [OUTPUT] auf [NUM]",
     "ftxt.doSetOutput": "Setze Ausgang [OUTPUT] auf [NUM]",
     "ftxt.doResetCounter": "Setze Zähler [COUNTER_ID] zurück",
