@@ -246,7 +246,7 @@
     "ftxt.doStopMotor": "Stop motor [MOTOR_ID]",
     "ftxt.doSetMotorSpeedDirDist": "Move motor [MOTOR_ID] [DIRECTION] with [SPEED] by [STEPS] steps",
     "ftxt.doSetMotorSpeedDirSync": "Move motors [MOTOR_ID] [DIRECTION] and [MOTOR_ID2] [DIRECTION2] with [SPEED]",
-    "ftxt.doSetMotorSpeedDirDistSync": "Move motors [MOTOR_ID] [DIRECTION] and [MOTOR_ID2] [DIRECTION2] by [STEPS] steps with [SPEED]",
+    "ftxt.doSetMotorSpeedDirDistSync": "Move motors [MOTOR_ID] [DIRECTION] and [MOTOR_ID2] [DIRECTION2] with [SPEED] by [STEPS] steps",
     "ftxt.doStopMotorAndReset": "Stop Move [MOTOR_ID]",
     "ftxt.reset": "Reset"
 }

@@ -243,7 +243,7 @@
     "ftxt.doConfigureInput": "הגדר סוג קלט [MODE] ל [INPUT]",
     "ftxt.doSetMotorSpeed": "קבע מהירות מנוע [MOTOR_ID] ל [SPEED]",
     "ftxt.doSetMotorDir": "קבע כיוון מנוע [MOTOR_ID] ל [DIRECTION]",
-    "ftxt.doSetMotorSpeedDir": "קבע מהירות מנוע [MOTOR_ID] [DIRECTION] ל [SPEED] [DIRECTION]",
+    "ftxt.doSetMotorSpeedDir": "קבע מהירות מנוע [MOTOR_ID] [DIRECTION] ל [SPEED]",
     "ftxt.doStopMotor": "עצור מנוע [MOTOR_ID]",
     "ftxt.doSetMotorSpeedDirDist": "הזז מנוע [MOTOR_ID] למרחק [STEPS] צעדים במהירות [SPEED] [DIRECTION]",
     "ftxt.doSetMotorSpeedDirSync": "הזז מנועים [MOTOR_ID] [DIRECTION] וגם [MOTOR_ID2] [DIRECTION2] במהירות [SPEED]",
